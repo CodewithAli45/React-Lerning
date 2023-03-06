@@ -1,7 +1,7 @@
 import React from 'react';
 import { InputHooks } from '../hooks/InputHooks';
 
-export function CounterOne() {
+export function CounterTwo() {
     // const {initalValue, incValue, decVal, resetVal} = props;
     // const [count, setCount] = useState(initalValue);
 
@@ -16,7 +16,7 @@ export function CounterOne() {
     // const reset = () => {
     //     setCount(resetVal);
     // };
-    const [count, increment, decrement, reset] = InputHooks();
+    const [count, increment, decrement, reset] = InputHooks(150, 15, 7, 25.35);
   return (
     <div style={{margin: 20}}>
       <h2>Count : {count}</h2>
