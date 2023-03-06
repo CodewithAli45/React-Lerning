@@ -2,6 +2,7 @@ import React from 'react';
 // import { CounterOne } from './components/CounterOne';
 import { CounterTwo } from './components/CounterTwo';
 import {Forms} from './components/Forms';
+import { Fetch } from './components/Fetch';
 
 export function App() {
   return (
@@ -19,10 +20,10 @@ export function App() {
         // decVal={15.0568} 
         // resetVal={250.00} 
       /> */}
-      <CounterTwo /> 
-      
+      {/* <CounterTwo /> 
+      <Forms /> */}
 
-      <Forms />
+      <Fetch />
     </div>
   )
 }
