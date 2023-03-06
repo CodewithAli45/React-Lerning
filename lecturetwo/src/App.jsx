@@ -12,7 +12,6 @@ export const ThemeContext = createContext();
 export function App() {
   const [theme, setTheme] = useState(initialTheme);
   const togleTheme = () => {
-    console.log('Ali and Babita');
     theme === 'light' ? setTheme('dark') : setTheme('light');
 
   }
