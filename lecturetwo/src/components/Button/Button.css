@@ -1,0 +1,18 @@
+.button-dark{
+    padding: 10px 15px;
+    background-color: rgb(235, 139, 139);
+    border-radius: 8px;
+    border: 1px solid rgb(93, 226, 32);
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.button-light{
+    padding: 10px 15px;
+    background-color: rgb(56, 33, 33);
+    color: lightcoral;
+    border-radius: 8px;
+    border: 1px solid rgb(93, 226, 32);
+    cursor: pointer;
+    font-size: 20px;
+}

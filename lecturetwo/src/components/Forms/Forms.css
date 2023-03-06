@@ -1,0 +1,26 @@
+.header-light{
+    color: rgb(221, 12, 12);
+    text-decoration: underline;
+}
+.header-dark{
+    color: rgb(148, 233, 197);
+    text-decoration: wavy;
+}
+
+.form-light{
+    background-color: #f0f0f0;
+    width: max-content;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+}
+.form-dark{
+    background-color: black;
+    color: white;
+    width: max-content;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+}
